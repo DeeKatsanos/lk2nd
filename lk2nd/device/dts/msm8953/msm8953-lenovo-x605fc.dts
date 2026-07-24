@@ -1,0 +1,27 @@
+// SPDX-License-Identifier: GPL-2.0-only
+
+/dts-v1/;
+
+#include <skeleton64.dtsi>
+#include <lk2nd.dtsi>
+
+/ {
+	qcom,board-id = <0x01 0x02>,
+                    <0x08 0x03>,
+                    <0x0b 0x00>;
+};
+
+&lk2nd {
+	model = "Lenovo X605FC";
+	compatible = "lenovo,X605FC";
+
+	lk2nd,dtb-files = "msm8953-lenovo-X605FC";
+
+    panel {
+		compatible = "lenovo,X605FC-panel", "lk2nd,panel";
+
+		qcom,qcom,mdss_dsi_ft8201_1200p_video {
+			compatible = "lenovo,X605FC";
+		};
+	};
+};
