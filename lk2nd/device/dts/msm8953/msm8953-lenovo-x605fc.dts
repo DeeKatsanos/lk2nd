@@ -20,7 +20,7 @@
     panel {
 		compatible = "lenovo,X605FC-panel", "lk2nd,panel";
 
-		qcom,qcom,mdss_dsi_ft8201_1200p_video {
+		qcom,mdss_dsi_ft8201_1200p_video {
 			compatible = "lenovo,X605FC";
 		};
 	};
