@@ -83,7 +83,8 @@
 - Lenovo Yoga Tab 3 8 LTE / WIFI
 - Lenovo Yoga Tab 3 10 LTE / WIFI
 - Lenovo Tab 10 (TB-X103F)
-- Mobvoi TicWatch Pro (WF12096)
+- Mobvoi TicWatch Pro 2018 (catfish - WF12096)
+- Mobvoi TicWatch Pro 2020 (catfish_ext - WF12106)
 - Nokia 6300 4G
 - Nokia 8000 4G
 - Nokia 8110 4G
@@ -107,6 +108,7 @@
 - Huawei MediaPad T3 8 (kob- l09/l09chn/w09/w09chn) (quirky - see comment in `lk2nd/device/dts/msm8952/msm8917-huawei-kobe.dts`)
 - Leeco s2
 - Lenovo K5 Play (l38011)
+- Lenovo Tab 4 10x (TB-X304x)
 - Lenovo Tab M10 HD (TB-X505X) (requires flashing [minimal DTBO](#minimal-dtb-overlay))
 - Medion Lifetab P10610 (Malata)
 - Motorola Moto E4 (perry) (MSM8917)
@@ -136,6 +138,7 @@
 - Sony Xperia X Compact
 - Wileyfox Swift 2
 - Xiaomi Mi Max (hydrogen)
+- Zebra TC56 (ironman) 
 
 ### lk2nd-msm8953
 
